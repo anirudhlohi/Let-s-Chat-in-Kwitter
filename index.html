@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <link rel="stylesheet"  href="style.css">
 <script src="kwitter.js"></script>
@@ -24,9 +25,12 @@
 		<h4 >Join Kwitter today</h4>
 		<div class="form-group">
 		  <label >User Name:</label>
-          <input type="text" placeholder="Username" class="form-control" id="user_name">
+          <div class="input-container">
+			<i class="fa fa-user icon"></i>
+		  <input class="input-field form-control" type="text" placeholder="Username" id="user_name">
+		  </div>
 		</div>
-		<button id="login_button" class="btn btn-primary" onclick="login()">Log in</button>
+		<button id="login_button" class="btn btn-success bu" onclick="login()">Log in</button>
 		<br>
 		<br>
 		<img src="en.png" class="chat">

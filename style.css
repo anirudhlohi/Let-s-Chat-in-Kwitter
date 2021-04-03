@@ -1,0 +1,67 @@
+body{
+    background-image: linear-gradient(to  right top ,  #ff0f0f, #f05209, #f5e612, #10f723,blue,indigo,violet);
+    
+}
+.header
+{
+	color: white;font-family: 'Yeon Sung';
+    font-size: 45px;
+    letter-spacing: 10px;
+    margin-top: 80px;
+}
+.logo2{
+    width: 50px;
+    height: 50px;;
+}
+.chat{
+    width: 80px;
+    height: 80px;
+}
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+.bu {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+#logout
+{
+	font-size: 20px; float: right;
+}
+#welcome{
+  margin-top: 100px;
+  color:white ;
+  
+}
+
+
